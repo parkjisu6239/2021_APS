@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
-# DFS 반복문
+# BFS 반복문
 def Find_start(N, maze):
     for r in range(1, N+1):
         for c in range(1, N+1):
@@ -9,7 +9,7 @@ def Find_start(N, maze):
                 return [r, c]
 
 # 미로 찾기
-def MazeRunner_DFS(maze):
+def MazeRunner_BFS(maze):
     # 출발점 찾아서 스택에 넣기
     stack = [Find_start(N, maze)]
 
@@ -19,7 +19,7 @@ def MazeRunner_DFS(maze):
 
     while stack:
         # 현 위치를 스택에서 빼서, 방문체크
-        r, c = stack.pop()
+        r, c = stack.pop(0)
         maze[r][c] = 1
 
         # 현위치에서 갈 수 있는 좌표 스택에 쌓기
@@ -41,4 +41,5 @@ for tc in range(1, int(input())+1):
     for _ in range(N):
         maze.append( [1] + list(map(int, input())) + [1])
     maze.append([1] * (N+2))
-    print('#{} {}'.format(tc, MazeRunner_DFS(maze)))
+
+    print('#{} {}'.format(tc, MazeRunner_BFS(maze)))
