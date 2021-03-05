@@ -1,5 +1,3 @@
-
-
 def Eat_land(idx):
     global total, max_sum
 
@@ -24,7 +22,6 @@ def Eat_land(idx):
             Eat_land(idx + 1)
             sel[idx] = 0
             total -= land[idx][i]
-
 
 
 land = [[1,2,3,5],[5,6,7,8],[4,3,2,1]]
