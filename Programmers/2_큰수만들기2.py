@@ -1,9 +1,26 @@
 def solution(number, k):
-    # len(number) 에서 k개를 뽑는 경우의 수 >> k개를 선택 (순서상관X)
+    N = len(number)
+    visit = [0] * N
+    result = []
 
-    answer = 0
+    def DFS(idx, N, k, visit, result):
+        if idx == k:
+            total = ''
+            for i in range(N):
+                if not visit[i]:
+                    total += number[i]
+            result.append(int(total))
+            return
 
-    return answer
+        for i in range(N):
+            if not visit[i]:
+                visit[i] = 1
+                DFS(idx+1, N, k, visit, result)
+                visit[i] = 0
+
+    DFS(0, N, k, visit, result)
+
+    return str(max(result))
 
 
 print(solution("4177252841", 4))
