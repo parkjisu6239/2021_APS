@@ -47,4 +47,4 @@ def solution(m, musicinfos):
         return '(None)'
 
 
-print(solution("CC#BCC#BCC#BCC#B", ["03:00,03:30,FOO,CC#B", "04:00,04:08,BAR,CC#BCC#BCC#B"]))
+print(solution("C", ["03:00,03:06,FOO,AC#B", "04:00,04:01,BAR,CC#BCC#BCC#B"]))
