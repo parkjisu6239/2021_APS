@@ -1,3 +1,4 @@
+from pandas import DataFrame as df
 def solution(N, road, K):
     # <POINT>
     # 경우에 따라, 이미 방문한 정점을 다시 갈 수도 있다!
@@ -20,6 +21,8 @@ def solution(N, road, K):
                 matrix[v][w] = d
                 matrix[w][v] = d
 
+    print(df(matrix))
+
     # visit은 1번 정점과의 최단거리로 지정할 것이기 때문에 초기값은 큰 수를 지정함.
     visit = [99999999999] * (N + 1)
 
@@ -31,11 +34,13 @@ def solution(N, road, K):
         v = que.pop(0)
         for i in range(len(matrix[v])):
             # 연결되어 있고, 현재 방문 경로가 최단 거리인 경우
+            # matrix[v][i]:v정점과 i정점 사이의 거리, visit[v]:1번 정점과 v정점 사이의 거리
             if matrix[v][i] and matrix[v][i] + visit[v] < visit[i]:
-                if visit[v] + matrix[v][i] <= K:
+                if visit[v] + matrix[v][i] <= K: # 이거 없어도 정답이지만 있으면 1초정도 빠름
                     que.append(i)
                     visit[i] = matrix[v][i] + visit[v]
 
+    print(visit)
     result = 0
     for i in range(len(visit)):
         if visit[i] <= K:
@@ -43,4 +48,4 @@ def solution(N, road, K):
 
     return result
 
-print(solution(6, [[1,2,1],[1,3,4],[2,3,2],[3,4,3],[3,5,2],[3,5,3],[5,6,1]], 4))
+print(solution(6, [[1,2,1],[1,3,4],[2,3,2],[3,4,1],[3,5,2],[3,5,3],[5,6,1]], 4))
