@@ -20,7 +20,7 @@ def solution(scoville, K):
         nonlocal element_cnt
 
         return_value = tree[1]
-        tree[1], tree[element_cnt] = tree[element_cnt], 0
+        tree[1], tree[element_cnt] = tree[element_cnt], -1
         element_cnt -= 1
 
         parent = 1
@@ -46,7 +46,7 @@ def solution(scoville, K):
         heappush(tree, sco)
 
     mix = 0
-    while tree[2] != 0 and tree[1] < K:
+    while tree[2] != -1 and tree[1] < K:
         mix += 1
         new_scovile = heappop(tree) + heappop(tree)*2
         heappush(tree, new_scovile)
