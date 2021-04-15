@@ -20,6 +20,7 @@ for tc in range(1, int(input())+1):
 
     idx = 0
     n = len(nums)
+    print(''.join(nums))
     while swap > 0:
         # 최대라면 교체 그만
         if nums == DECS:
@@ -35,6 +36,7 @@ for tc in range(1, int(input())+1):
             changed_nums[int(nums[max_idx])].append(max_idx)
             nums[idx], nums[max_idx] = nums[max_idx], nums[idx]
             swap -= 1
+            print(''.join(nums))
 
         idx += 1
 
