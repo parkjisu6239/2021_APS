@@ -13,20 +13,17 @@ def solution(lines):
             start = round(end - during + 0.001, 3)
         else:
             start = 0.0
-        times.append([start, end])
+        times.append([int(start * 1000), int(end * 1000)])
 
-    print(times)
+    times.sort(key=lambda x: x[1])
 
-    rear, tail = int(times[0][0]), int(times[-1][1])
     max_request = 0
-    for second in range(rear, tail+1):
+    for target in times:
+        s = target[1]
+        e = target[1] + 1000
         request = 0
-        for time in times:
-            if second <= time[0] <= second + 1:
-                request += 1
-            elif time[0] <= second < second + 1 <= time[1]:
-                request += 1
-            elif second <= time[1] <= second + 1:
+        for overlap in times:
+            if s <= overlap[0] < e or s <= overlap[1] < e or overlap[0] <= s < e <= overlap[1]:
                 request += 1
         if request > max_request:
             max_request = request
