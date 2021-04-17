@@ -1,29 +1,34 @@
 def solution(n, money):
-    # SWEA 수영장 문제랑 비슷 근데 시간 초과됨!
-    answer = []
-    result = 0
+    # 재귀!
     sel = [0] * len(money)
+    result = 0
+    visit = {}
 
-    def change(don):
-        nonlocal answer, result
+    def change(sel, don):
+        nonlocal result
+        if visit.get((don, *sel), 0):
+            return
+
         if don == n:
-            if sel not in answer:
-                result += 1
-                result %= 1000000007
-                answer.append(list(sel))
+            visit[(don, *sel)] = 1
+            result = (result + 1)%1000000007
+
             return
 
         if don > n:
             return
 
+        visit[(don, *sel)] = 1
+
         for i in range(len(money)):
-            sel[i] += 1
-            change(don + money[i])
-            sel[i] -= 1
+            if don + money[i] <= n:
+                sel[i] += 1
+                change(sel, don + money[i])
+                sel[i] -= 1
 
-    change(0)
+    change(sel, 0)
 
-    return result % 1000000007
+    return result%1000000007
 
 
 print(solution(5, [1, 2, 5]))
