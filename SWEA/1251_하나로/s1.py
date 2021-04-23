@@ -1,9 +1,11 @@
 import sys
+from time import time
 sys.stdin = open('input.txt')
+start = time()
 
 
 def find_d(x1, y1, x2, y2):
-    return int(((x1-x2)**2 + (y1-y2)**2)*env)
+    return (x1-x2)**2 + (y1-y2)**2
 
 
 for tc in range(1, int(input())+1):
@@ -23,7 +25,7 @@ for tc in range(1, int(input())+1):
     while node < V-1:
         x1, y1 = x[v], y[v]
         for w in range(V):
-            if v != w:
+            if v != w and visit[w] == 0:
                 x2, y2 = x[w], y[w]
                 d = find_d(x1, y1, x2, y2)
                 if d < distance[w]:
@@ -38,6 +40,7 @@ for tc in range(1, int(input())+1):
         visit[v] = 1
         node += 1
 
-    print(sum(distance))
+    print('#{} {}'.format(tc, round(sum(distance)*env), -1))
 
 
+print(time() - start)
