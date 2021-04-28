@@ -1,6 +1,9 @@
 def solution(sticker):
     N = len(sticker)
 
+    if N < 3:
+        return max(sticker)
+
     # DP[i] = i번까지 선택할 수 있는 최대합
     DP = [0] * N
 
