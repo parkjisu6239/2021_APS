@@ -25,7 +25,16 @@ def solution(n, s):
     if numbers < 2:
         return [-1]
 
-    answer = [numbers] * (n-1) + [numbers + s % n]
+    answer = [numbers] * n # 일단 나눠 담고
+    remain = s % n # 나머지는 뒤에서부터 더하기
+
+    i = n-1
+    while remain:
+        answer[i] += 1
+        i -= 1
+        remain -= 1
+
     return answer
 
-print(solution(2, 8))
+print(solution(2, 1))
+
