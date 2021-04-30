@@ -1,6 +1,8 @@
 import sys
 sys.stdin = open('input.txt')
 
+# 시간 복잡도 O(n^2)
+
 N = int(input())
 nums = list(map(int, input().split()))
 counter = [1]*N
