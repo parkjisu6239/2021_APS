@@ -2,6 +2,7 @@ import sys
 sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
+# 내 풀이
 R, C = map(int, input().split())
 arr = [ list(input()) for _ in range(R) ]
 
@@ -13,11 +14,6 @@ visit = []
 
 def DFS(r, c, s):
     global result
-
-    if (r, c, s) in visit:
-        return
-
-    visit.append((r, c, s))
 
     for k in range(4):
         nr, nc = r + dr[k], c + dc[k]
