@@ -1,34 +1,39 @@
 import sys
-from heapq import heappop, heappush
 sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
+# input
 V = int(input())
 tree = [[] for _ in range(V+1)]
 for _ in range(V-1):
     p, c, w = map(int, input().split())
-    tree[p].append((w, c))
-    tree[c].append((w, p))
+    tree[p].append((c, w))
+    tree[c].append((p, w))
 
-def Dijkstra(s):
-    heap = []
-    heappush(heap, (0, s))
-    distance = [9999999999] * (V+1)
-    distance[s] = 0
+# BFS
+def BFS(s):
+    que = [(s, 0)]
+    visit = [0] * (V+1)
+    visit[s] = 1
 
-    while heap:
-        s_to_v, v = heappop(heap)
+    max_d = 0 # 가장 먼 노드의 거리
+    max_idx = s # 가장 먼 노드의 인덱스
 
-        for v_to_w, w in tree[v]:
-            s_to_w = s_to_v + v_to_w
-            if s_to_w < distance[w]:
-                distance[w] = s_to_w
-                heappush(heap, (s_to_w, w))
+    while que:
+        v, vd = que.pop(0)
 
-    return max(distance[1:])
+        if vd > max_d:
+            max_d = vd
+            max_idx = v
 
-result = 0
-for start in range(1, V+1):
-    result = max(result, Dijkstra(start))
+        for w, wd in tree[v]:
+            if visit[w] == 0:
+                que.append((w, vd+wd))
+                visit[w] = 1
 
-print(result)
+    return (max_d, max_idx)
+
+# 실행
+ans1, idx1 = BFS(1)
+ans2, idx2 = BFS(idx1)
+print(ans2)
