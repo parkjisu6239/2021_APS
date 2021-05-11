@@ -34,6 +34,7 @@ def BFS(s):
     return (max_d, max_idx)
 
 # 실행
-ans1, idx1 = BFS(1)
+ans1, idx1 = BFS(7)
+print(ans1, idx1)
 ans2, idx2 = BFS(idx1)
-print(ans2)
+print(ans2, idx2)
