@@ -1,11 +1,12 @@
 import sys
 sys.stdin = open('input.txt')
+input = sys.stdin.readline
 
 for _ in range(int(input())):
     N = int(input())
     phone_book = [0] * N
     for i in range(N):
-        phone_book[i] = input()
+        phone_book[i] = input().strip()
     phone_book.sort()
     # print(phone_book)
     for i in range(len(phone_book)-1):
