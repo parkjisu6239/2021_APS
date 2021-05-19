@@ -10,7 +10,7 @@ def solution(board):
     cost[0][0] = 0
 
     while que:
-        r, c, direction = que.pop(0)
+        r, c, direction = que.pop()
 
         for k in range(4):
             nr, nc = r + dr[k], c + dc[k]
@@ -24,8 +24,6 @@ def solution(board):
                         que.append((nr, nc, k))
                         cost[nr][nc] = cost[r][c]+600
 
-    for cos in cost:
-        print(cos)
     return cost[N-1][N-1]
 
 # print(solution([[0,0,0],[0,0,0],[0,0,0]]), 900)
