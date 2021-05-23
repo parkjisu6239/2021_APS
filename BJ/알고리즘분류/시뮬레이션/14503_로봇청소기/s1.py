@@ -32,11 +32,9 @@ def RobotGo(r, c, d, cnt, cantgo):
 
 
 def RobotClean(r, c, d, cnt, cantgo): # 1
-    if arr[r][c] == 0:
-        arr[r][c] = 2 # 1
-        return RobotGo(r, c, d, cnt+1, 0)
-    else:
-        return RobotGo(r, c, d, cnt, 0)
+    arr[r][c] = 2 # 1
+    return RobotGo(r, c, d, cnt+1, 0)
+
 
 
 print(RobotClean(r, c, d, 0, 0))
