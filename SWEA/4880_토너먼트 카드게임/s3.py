@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 def winner(a,b):
     if b == 0 or a[1] == b[1]:

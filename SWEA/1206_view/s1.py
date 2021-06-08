@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 def chek_View(buildings):
     # 조망권이 확보된 건물의 수

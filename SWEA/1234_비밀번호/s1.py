@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 for tc in range(1, 11):
     N, numbers = map(str, input().split())

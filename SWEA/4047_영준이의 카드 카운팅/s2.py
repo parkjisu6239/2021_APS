@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 def Card(S):
     # S, D, H, C 카드 정보

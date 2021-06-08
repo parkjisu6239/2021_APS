@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 def Perm(idx, total):
     global change, min_change

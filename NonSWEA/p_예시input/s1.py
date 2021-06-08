@@ -1,7 +1,7 @@
 import sys
 
-# sys.stdin = open("input.txt", "r")
-sys.stdin = open("input.txt")
+# sys.stdin = open("eval_input.txt", "r")
+sys.stdin = open("eval_input.txt")
 
 # 1. 홀짝구분
 N = int(input())

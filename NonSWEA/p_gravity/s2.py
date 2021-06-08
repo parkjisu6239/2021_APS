@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 # input
 T = int(input())

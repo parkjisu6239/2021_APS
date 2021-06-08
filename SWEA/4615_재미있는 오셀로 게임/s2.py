@@ -1,6 +1,6 @@
 import sys
 from pandas import DataFrame as df
-sys.stdin = open("input.txt")
+sys.stdin = open("eval_input.txt")
 
 def Othello(N, M, location):
     # 놓아진 돌에서 8방향 확인했을때, 다른 색돌이 쭉 있다가,

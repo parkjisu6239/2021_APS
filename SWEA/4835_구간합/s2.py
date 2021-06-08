@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 def Section_sum(N, M, numbers):
     # 편의상 큰 숫자를 N으로 지정

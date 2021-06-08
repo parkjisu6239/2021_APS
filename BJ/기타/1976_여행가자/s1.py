@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 # 그룹나누기 같은 문제라 서로소 집합 이용.
 def find_set(x):

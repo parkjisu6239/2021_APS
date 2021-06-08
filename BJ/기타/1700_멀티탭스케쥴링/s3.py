@@ -1,6 +1,6 @@
 import sys
 import time
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 start = time.time()
 
 N, K = map(int, input().split())

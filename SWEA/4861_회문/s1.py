@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt', 'r', encoding = 'UTF-8')
+sys.stdin = open('eval_input.txt', 'r', encoding = 'UTF-8')
 
 def Rogguggeo(N, M, text):
     # 회문인 문장을 찾아서 담을 변수

@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt', 'r', encoding = 'UTF-8')
+sys.stdin = open('eval_input.txt', 'r', encoding = 'UTF-8')
 
 for tc in range(1, int(input())+1):
     N = int(input())

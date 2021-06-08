@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 def Bus(K, N, M, bus_stop):
     # 현재 버스의 위치, 마지막 충전위치, 충전횟수 초기화

@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt")
+sys.stdin = open("eval_input.txt")
 
 
 def w(a, b, c):

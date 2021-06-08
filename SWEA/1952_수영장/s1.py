@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 def Extremeideugchung(month, price):
     global min_price, use_plan

@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 def check_babygin(numbers):
     # numbers의 갯수를 셀 변수

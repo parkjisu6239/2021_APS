@@ -1,6 +1,6 @@
 import sys
 from itertools import combinations
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 def food(a, b):
     global min_cha

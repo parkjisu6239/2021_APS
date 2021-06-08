@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt', 'r')
+sys.stdin = open('eval_input.txt', 'r')
 
 def Patition(arr, l, r):
     p = arr[l] # 왼쪽 끝값

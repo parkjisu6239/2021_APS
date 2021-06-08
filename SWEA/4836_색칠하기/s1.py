@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 for tc in range(1, int(input())+1):
     # 색칠할 빈종이 준비 100*100

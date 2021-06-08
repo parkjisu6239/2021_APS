@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 def merge(L, R):
     global cnt # 문제에서 구하라는 경우의 수

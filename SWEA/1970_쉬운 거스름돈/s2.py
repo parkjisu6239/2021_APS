@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 
 changes = [ 50000, 10000, 5000, 1000, 500, 100, 50, 10 ]

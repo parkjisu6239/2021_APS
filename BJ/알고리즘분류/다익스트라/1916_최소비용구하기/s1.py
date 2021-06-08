@@ -1,6 +1,6 @@
 import sys
 from heapq import heappop, heappush
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 input = sys.stdin.readline
 
 N = int(input())

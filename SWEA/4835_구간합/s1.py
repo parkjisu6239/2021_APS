@@ -1,6 +1,6 @@
 import sys
 
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 '''
 # 내풀이

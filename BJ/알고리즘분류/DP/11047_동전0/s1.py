@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 N, money = map(int, input().split())
 coin = [int(input()) for _ in range(N)]

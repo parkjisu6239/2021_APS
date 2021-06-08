@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 def MazeRunner(que, maze):
     # visited 없이 지나온 길을 시점과의 거리로 바꿔줄 것이다.

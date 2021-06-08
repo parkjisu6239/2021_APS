@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 def powersetsum(N, M):
     # 문제에서 1~12 숫자를 원소로 가진 집합이라고 명시됨

@@ -1,6 +1,6 @@
 import sys
 from time import time
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 start = time()
 
 # 힙

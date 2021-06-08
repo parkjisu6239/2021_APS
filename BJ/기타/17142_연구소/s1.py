@@ -1,6 +1,6 @@
 import sys
 from itertools import combinations
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 
 def BFS(start): # 출발지가 여럿인 경우 BFS

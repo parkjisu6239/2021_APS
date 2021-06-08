@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt")
+sys.stdin = open("eval_input.txt")
 
 def QuickSort(numbers):
     # 길이가 0,1 이면 정렬 필요 없이 그대로 리턴(베이스 케이스)

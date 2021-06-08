@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 # 크루스칼 #
 def find_set(x): # 루트를 찾는 동시에, p에 항상 루트를 담음

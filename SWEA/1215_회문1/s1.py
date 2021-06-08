@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt")
+sys.stdin = open("eval_input.txt")
 
 def Rogguggeo(n, board):
     roggu_cnt = 0 # 가로 세로 총 회문 카운트

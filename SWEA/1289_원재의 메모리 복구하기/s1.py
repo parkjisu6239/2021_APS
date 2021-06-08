@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt")
+sys.stdin = open("eval_input.txt")
 
 def Memory(memory):
     bit_zero = [0] * len(memory) # 초기값 0000~000

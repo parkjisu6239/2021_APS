@@ -1,6 +1,6 @@
 import sys
 from heapq import heappush, heappop
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 
 # ① 1~must1~must2~n

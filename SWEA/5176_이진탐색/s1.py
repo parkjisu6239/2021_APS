@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 def maketree(node):
     # 숫자가 채워지는 규칙이 중위탐색과 같음

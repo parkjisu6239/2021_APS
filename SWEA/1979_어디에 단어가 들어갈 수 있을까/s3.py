@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt', 'r', encoding = 'UTF-8')
+sys.stdin = open('eval_input.txt', 'r', encoding = 'UTF-8')
 
 def Where(N, M, puzzle):
     # 단어가 들어갈 수 있는 자리 갯수

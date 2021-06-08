@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 # 분할정복 & 백트래킹 #
 # DP?로도 볼수 있을지? (작은 부분문제로 전체 문제 해결 가능)

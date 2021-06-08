@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt', 'r')
+sys.stdin = open('eval_input.txt', 'r')
 
 # 파이썬 가변 리스트
 def Quick_Sort(arr):

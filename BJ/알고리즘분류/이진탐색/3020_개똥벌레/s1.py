@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('input.txt')
+sys.stdin = open('eval_input.txt')
 
 N, H = map(int, input().split())
 cave = [int(input()) for _ in range(N)]

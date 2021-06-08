@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open("input.txt", "r")
+sys.stdin = open("eval_input.txt", "r")
 
 def two_number_list(N, M):
     # 편의상 A가 작은 수, B가 큰수로 세팅
