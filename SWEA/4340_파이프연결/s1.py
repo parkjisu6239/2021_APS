@@ -81,6 +81,7 @@ for tc in range(1, int(input())+1):
     pipes = [list(map(int, input().split())) for _ in range(N)]
 
     # 현재 위치에서 파이프를 회전할 수 있다. 단, 이전 파이프와 연결되어야 한다.
+    # 현위치와, 현위치의 파이프 상태가 같으면 이후 결과는 이전의 최소값도 동일 -> DP
     Min = 999999
     visit = [[0] * N for _ in range(N)]
     visit[0][0] = 1
