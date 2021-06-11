@@ -9,18 +9,23 @@ def dfs(r, c, cnt, connect_direction):
 
     if (r, c) == (N-1, N-1): # 도착하면 최소값 갱신
         # 마지막 파이프가 직선인 경우, 반드시 왼쪽 연결
-        if pipes[r][c] == 1 and connect_direction == 4:
+        if pipes[r][c] in (1, 2) and connect_direction == 4:
             Min = min(Min, cnt)
         # 마지막 파이프가 직선이 아닌 경우, 반드시 위쪽 연결
-        elif pipes[r][c] == 6 and connect_direction == 1:
+        elif pipes[r][c] in (3, 4, 5, 6) and connect_direction == 1:
             Min = min(Min, cnt)
         return
 
-    if cnt > Min:
+    if cnt + (N-1-r) + (N-1-c) + 1 > Min:
         return
 
     if visit[r][c]:
         return
+
+    if cnt > dp[connect_direction][r][c]:
+        return
+
+    dp[connect_direction][r][c] = cnt
 
     visit[r][c] = 1
 
@@ -85,9 +90,12 @@ for tc in range(1, int(input())+1):
     Min = 999999
     visit = [[0] * N for _ in range(N)]
     visit[0][0] = 1
+    dp = [[[999999] * N for _ in range(N)] for __ in range(6)]
 
-    dfs(0, 1, 2, 4)
-
+    if pipes[0][0] == 1 or pipes[0][0] == 2:
+        dfs(0, 1, 2, 4)
+    else:
+        dfs(1, 0, 2, 1)
     print('#{} {}'.format(tc, Min))
 
 print((time.time() - start))
