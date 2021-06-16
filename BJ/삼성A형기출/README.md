@@ -10,7 +10,7 @@
 | ✔     | G5     | 3190     | [뱀](https://www.acmicpc.net/problem/3190)                   |
 | ✔     | B2     | 13458    | [시험 감독](https://www.acmicpc.net/problem/13458)           |
 | ✔     | G5     | 14499    | [주사위 굴리기](https://www.acmicpc.net/problem/14499)       |
-|       | G5     | 14500    | [테트로미노](https://www.acmicpc.net/problem/14500)          |
+| ✔     | G5     | 14500    | [테트로미노](https://www.acmicpc.net/problem/14500)          |
 |       | S4     | 14501    | [퇴사](https://www.acmicpc.net/problem/14501)                |
 | ✔     | G5     | 14502    | [연구소](https://www.acmicpc.net/problem/14502)              |
 | ✔     | G5     | 14503    | [로봇 청소기](https://www.acmicpc.net/problem/14503)         |
