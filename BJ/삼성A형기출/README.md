@@ -14,7 +14,7 @@
 | ✔     | S4     | 14501    | [퇴사](https://www.acmicpc.net/problem/14501)                |
 | ✔     | G5     | 14502    | [연구소](https://www.acmicpc.net/problem/14502)              |
 | ✔     | G5     | 14503    | [로봇 청소기](https://www.acmicpc.net/problem/14503)         |
-|       | S1     | 14888    | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)     |
+| ✔     | S1     | 14888    | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)     |
 | ✔     | S3     | 14889    | [스타트와 링크](https://www.acmicpc.net/problem/14889)       |
 |       | G3     | 14890    | [경사로](https://www.acmicpc.net/problem/14890)              |
 |       | G5     | 14891    | [톱니바퀴](https://www.acmicpc.net/problem/14891)            |
