@@ -36,7 +36,7 @@ for _ in range(K):
             else:
                 break
     elif idx == 3:
-        for i in range(4):
+        for i in range(2):
             if gear[idx-i-1][2] != gear[idx-i][6]:
                 rotate_temp.append((idx-i-1, direction*((-1)**(i+1))))
             else:
