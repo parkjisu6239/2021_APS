@@ -54,11 +54,13 @@ cctv = [list(q()) for _ in range(N)]
 dr = [-1, 0, 1, 0] # 상 우 하 좌
 dc = [0, 1, 0, -1]
 
+
 # 각 CCTV 별로 모든 회전 상태를 담은 변수
 # [[set(1번 cctv 감시 영역), set(1번 cctv 90도 회전 감시 영역),, ], [,,], ,,]
 all_CCTV = []
 empty = 0 # 벽이 아닌 칸의 수
 MAX = 0
+
 
 ## 실행 ##
 for n in range(N):
