@@ -17,11 +17,8 @@ def findDistance(v):
         for i in range(3):
             dist = min(dist, abs(planet[v][i] - planet[w][i]))
         heappush(heap, (dist, w))
+    print(heap)
 
-def clearHeap(v):
-    for i in range(len(heap)-1, 0, -1):
-        if heap[i][1] == v:
-            heap.pop(i)
 
 def Prim():
     node = 0
@@ -33,7 +30,6 @@ def Prim():
         if visit[v]: continue
 
         visit[v] = 1
-        clearHeap(v)
         node += 1
         cost += d
 
