@@ -10,6 +10,7 @@ graph = [[] for _ in range(n+1)]
 visited = [False] * (n+1)
 parent = [-1 for _ in range(n+1)]
 rank = [-1 for _ in range(n+1)]
+
 for _ in range(n-1):
     a, b = map(int, read().split())
     graph[a].append(b)
@@ -27,7 +28,7 @@ def dfs(i, r):
 visited[1] = True
 dfs(1, 0)
 
-@lru_cache()
+@lru_cache() # 있으면 288ms / 없으면 90% 까지 가다가 시간초과
 def lcu(a, b):
     if a == b:
         return a
