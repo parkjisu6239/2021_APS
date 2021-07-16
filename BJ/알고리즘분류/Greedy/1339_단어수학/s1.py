@@ -29,20 +29,20 @@ for _ in range(N):
 
 num = 9
 MAX = 0
+print(alphaList)
 
-
-for i in range(7, -1, -1):
-    if numList[i] == 0:
-        continue
-
-    if len(numList[i]) == 1:
-        if alphaToNum[numList[i][0]]:
-            continue
-        alphaToNum[numList[i][0]] = num
-        num -= 1
-    else:
-
-        print(alphaList)
+# for i in range(7, -1, -1):
+#     if numList[i] == 0:
+#         continue
+#
+#     if len(numList[i]) == 1:
+#         if alphaToNum[numList[i][0]]:
+#             continue
+#         alphaToNum[numList[i][0]] = num
+#         num -= 1
+#     else:
+#
+#         print(alphaList)
 
 
 
