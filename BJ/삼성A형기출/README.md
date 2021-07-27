@@ -19,7 +19,7 @@
 | ✔     | G3     | 14890    | [경사로](https://www.acmicpc.net/problem/14890)              |
 | ✔     | G5     | 14891    | [톱니바퀴](https://www.acmicpc.net/problem/14891)            |
 | ✔     | G5     | 15683    | [감시](https://www.acmicpc.net/problem/15683)                |
-|       | G4     | 15684    | [사다리 조작](https://www.acmicpc.net/problem/15684)         |
+| ✔     | G4     | 15684    | [사다리 조작](https://www.acmicpc.net/problem/15684)         |
 |       | G4     | 15685    | [드래곤 커브](https://www.acmicpc.net/problem/15685)         |
 | ✔     | G5     | 15686    | [치킨 배달](https://www.acmicpc.net/problem/15686)           |
 |       | P5     | 5373     | [큐빙](https://www.acmicpc.net/problem/5373)                 |

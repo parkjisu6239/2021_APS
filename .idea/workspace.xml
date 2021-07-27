@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BJ/삼성A형기출/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BJ/삼성A형기출/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,33 +18,33 @@
     <session id="-1785772321">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="7" />
-          <entry key="py" value="28" />
+          <entry key="md" value="8" />
+          <entry key="py" value="34" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="7" />
+          <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="28" />
+          <entry key="Python" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
           <entry key="md" value="1116" />
-          <entry key="py" value="4792" />
+          <entry key="py" value="5600" />
           <entry key="txt" value="113" />
         </counts>
       </usages-collector>
@@ -50,20 +52,20 @@
         <counts>
           <entry key="Markdown" value="1114" />
           <entry key="PLAIN_TEXT" value="119" />
-          <entry key="Python" value="4794" />
+          <entry key="Python" value="5602" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6758794">
+    <splitter split-orientation="horizontal" split-proportion="0.81281406">
       <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s1.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-41">
-                  <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+                <state relative-caret-position="-167">
+                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
                   <folding>
                     <element signature="e#0#10#0" expanded="true" />
                     <marker date="1627302120809" expanded="true" signature="166:171" ph="..." />
@@ -88,9 +90,18 @@
                     <marker date="1627302120809" expanded="true" signature="509:549" ph="..." />
                     <marker date="1627302120809" expanded="true" signature="509:550" ph="..." />
                     <marker date="1627302120809" expanded="true" signature="509:551" ph="..." />
-                    <marker date="1627302120809" expanded="true" signature="509:600" ph="..." />
-                    <marker date="1627302120809" expanded="true" signature="912:913" ph="..." />
-                    <marker date="1627302120809" expanded="true" signature="1140:1318" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s4.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -99,7 +110,7 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/input.txt">
               <provider selected="true" editor-type-id="text-editor">
@@ -163,6 +174,10 @@
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/이진탐색/7453_합이 0인 네 정수/README.md" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/input.txt" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s2.py" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s3.py" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/README.md" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s4.py" />
       </list>
     </option>
   </component>
@@ -196,6 +211,13 @@
               <item name="BJ" type="462c0819:PsiDirectoryNode" />
               <item name="삼성A형기출" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
+              <item name="BJ" type="462c0819:PsiDirectoryNode" />
+              <item name="삼성A형기출" type="462c0819:PsiDirectoryNode" />
+              <item name="15684_사다리조작" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -207,11 +229,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\삼성A형기출\15684_사다리조작" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\이진탐색\7453_합이 0인 네 정수" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\트리\1068_트리" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\정렬\1744_수묶기" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\문자열\9935_문자열폭발" />
-      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\브루트포스\1107_리모컨" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.s1">
+  <component name="RunManager" selected="Python.s4">
     <configuration name="S3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2021_APS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,27 +262,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\이진탐색\7453_합이 0인 네 정수\s3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="2021_APS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/이진탐색/7453_합이 0인 네 정수" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/이진탐색/7453_합이 0인 네 정수/s1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="s2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2021_APS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,11 +299,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/이진탐색/7453_합이 0인 네 정수" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/이진탐색/7453_합이 0인 네 정수/s2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2021_APS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,19 +354,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="s4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2021_APS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.s1" />
-      <item itemvalue="Python.s1 (2)" />
-      <item itemvalue="Python.s2" />
       <item itemvalue="Python.S3" />
       <item itemvalue="Python.s3" />
+      <item itemvalue="Python.s2 (1)" />
+      <item itemvalue="Python.s3 (1)" />
+      <item itemvalue="Python.s4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s4" />
+        <item itemvalue="Python.s3 (1)" />
+        <item itemvalue="Python.s2 (1)" />
         <item itemvalue="Python.s3" />
         <item itemvalue="Python.S3" />
-        <item itemvalue="Python.s2" />
-        <item itemvalue="Python.s1 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -363,18 +408,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16122234" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32681867" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -414,6 +458,11 @@
           <url>file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s1.py</url>
           <line>63</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s2.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -540,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/문자열/9935_문자열폭발/a1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -661,10 +703,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="44" column="26" selection-end-line="71" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        <state relative-caret-position="-167">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
             <marker date="1627302120809" expanded="true" signature="166:171" ph="..." />
@@ -689,9 +768,16 @@
             <marker date="1627302120809" expanded="true" signature="509:549" ph="..." />
             <marker date="1627302120809" expanded="true" signature="509:550" ph="..." />
             <marker date="1627302120809" expanded="true" signature="509:551" ph="..." />
-            <marker date="1627302120809" expanded="true" signature="509:600" ph="..." />
-            <marker date="1627302120809" expanded="true" signature="912:913" ph="..." />
-            <marker date="1627302120809" expanded="true" signature="1140:1318" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
