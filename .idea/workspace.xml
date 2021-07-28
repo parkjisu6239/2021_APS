@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BJ/삼성A형기출/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BJ/삼성A형기출/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +12,7 @@
     <session id="-1785772321">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="4" />
@@ -98,8 +92,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s4.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+                <state relative-caret-position="381">
+                  <caret line="71" column="13" lean-forward="true" selection-end-line="74" />
                   <folding>
                     <element signature="e#0#10#0" expanded="true" />
                   </folding>
@@ -774,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        <state relative-caret-position="381">
+          <caret line="71" column="13" lean-forward="true" selection-end-line="74" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
