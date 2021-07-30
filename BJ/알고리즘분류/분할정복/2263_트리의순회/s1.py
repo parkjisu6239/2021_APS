@@ -12,12 +12,10 @@ postOrder = list(map(int, input().split())) # 왼쪽 -> 오른쪽 -> 부모
 tree = [0] * (n+1)
 
 def devide(pivot_arr, target_arr, node):
-
     if len(pivot_arr) <= 1:
         if pivot_arr:
             tree[node] = pivot_arr[0]
         return
-
 
     tree[node] = pivot_arr[-1]
     pivot = target_arr.index(pivot_arr[-1])

@@ -1,5 +1,4 @@
-N = 99999
-
+N = 12
 
 def inOrder(n):
     if n > N:
