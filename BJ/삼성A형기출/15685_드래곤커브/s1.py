@@ -13,31 +13,23 @@ sys.stdin = open('input.txt')
 
 
 def setDrangonCurve(r, c, d, g):
-    directions = []
+    directions = [d]
     land[r][c] = 1
-    gener = 0
 
-    while gener <= g:
-        if gener == 0:
-            dr, dc = move[d]
-            r, c = r + dr, c + dc
-            land[r][c] = 1
-
-            directions.append(d)
-            gener += 1
-            continue
-
+    for _ in range(g):
         temp = []
         for i in range(len(directions)):
-            direc = directions[len(directions) - i - 1] # 뒤에서 부터
+            direc = directions[-i -1] # 뒤에서 부터
             ro_direc = (direc - 3) % 4
-            dr, dc = move[ro_direc]
-            r, c = r + dr, c + dc
-            land[r][c] = 1
             temp.append(ro_direc)
 
-        gener += 1
         directions.extend(temp)
+
+    for k in directions:
+        nr, nc = r + dr[k], c + dc[k]
+        land[nr][nc] = 1
+        r, c = nr, nc
+
 
 
 def countSquare():
@@ -55,7 +47,8 @@ def countSquare():
 
 N = int(input())
 land = [[0] * 101 for _ in range(101)]
-move = {0: (0, 1), 1: (-1, 0), 2: (0, -1), 3: (1, 0)}
+dr = [0, -1, 0, 1]
+dc = [1, 0, -1, 0]
 
 for _ in range(N):
     x, y, d, g = map(int, sys.stdin.readline().split())

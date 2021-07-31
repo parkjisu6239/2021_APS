@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BJ/삼성A형기출/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BJ/삼성A형기출/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,32 +28,32 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="md" value="11" />
-          <entry key="py" value="59" />
+          <entry key="md" value="12" />
+          <entry key="py" value="60" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="11" />
+          <entry key="Markdown" value="12" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="59" />
+          <entry key="Python" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
           <entry key="gitignore" value="6" />
-          <entry key="md" value="1847" />
-          <entry key="py" value="10944" />
+          <entry key="md" value="1848" />
+          <entry key="py" value="11241" />
           <entry key="txt" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="1845" />
+          <entry key="Markdown" value="1846" />
           <entry key="PLAIN_TEXT" value="239" />
-          <entry key="Python" value="10946" />
+          <entry key="Python" value="11243" />
         </counts>
       </usages-collector>
     </session>
@@ -62,16 +63,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+            <state relative-caret-position="-534">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
-                <marker date="1627718928420" expanded="true" signature="950:1348" ph="..." />
+                <marker date="1627721337906" expanded="true" signature="723:927" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="116">
+                <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/input.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
@@ -105,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BJ/알고리즘분류/Greedy/1339_단어수학/s2.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/Greedy/1339_단어수학/s3.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/Greedy/1339_단어수학/a1.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/브루트포스/1107_리모컨/s3.py" />
@@ -133,7 +154,6 @@
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s1.py" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s2.py" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s3.py" />
-        <option value="$PROJECT_DIR$/BJ/삼성A형기출/README.md" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s4.py" />
         <option value="$PROJECT_DIR$/Programmers/Level_1/1_문자열내마음대로정렬하기.py" />
         <option value="$PROJECT_DIR$/Programmers/Level_1/1_비밀지도.py" />
@@ -156,14 +176,16 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/input.txt" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s2.py" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="613" />
-    <option name="width" value="1943" />
-    <option name="height" value="765" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="978" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -226,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.s1 (2)">
+  <component name="RunManager" selected="Python.s2 (1)">
     <configuration name="s1 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2021_APS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,6 +312,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="s2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2021_APS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="s2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2021_APS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -303,27 +346,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회/s2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="s5" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="2021_APS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/s5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -357,17 +379,17 @@
       <item itemvalue="Python.s1" />
       <item itemvalue="Python.s1 (3)" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.s5" />
       <item itemvalue="Python.s2" />
       <item itemvalue="Python.s1 (2)" />
+      <item itemvalue="Python.s2 (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s2 (1)" />
         <item itemvalue="Python.s1 (2)" />
         <item itemvalue="Python.s2" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.s1 (3)" />
-        <item itemvalue="Python.s5" />
       </list>
     </recent_temporary>
   </component>
@@ -385,11 +407,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="491" width="1554" height="612" extended-state="0" />
+    <frame x="-7" y="-7" width="782" height="838" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32885906" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.21448864" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -397,8 +419,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.5376569" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.06896552" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.64346594" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.06818182" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -408,7 +430,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32885906" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.21448864" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -416,8 +438,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3650568" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.06896552" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.19176136" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.06818182" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -484,7 +506,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py</url>
-          <line>64</line>
+          <line>54</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
@@ -520,14 +542,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/브루트포스/1107_리모컨/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/문자열/9935_문자열폭발/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -697,16 +711,6 @@
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -899,20 +903,37 @@
     <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/2063769545/sys.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
-          <folding>
-            <marker date="1627718928420" expanded="true" signature="950:1348" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-534">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1627721337906" expanded="true" signature="723:927" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="116">
+            <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
