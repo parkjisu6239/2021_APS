@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BJ/삼성A형기출/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BJ/삼성A형기출/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +12,7 @@
     <session id="-1785772321">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.4" value="5" />
@@ -408,18 +403,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="782" height="838" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.32885906" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.32885906" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.21448864" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.21448864" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.64346594" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.64346594" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.06818182" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
