@@ -1,7 +1,7 @@
 import sys
 sys.stdin = open('input.txt')
 
-
+# 시간초과남, 힙 써보기
 
 def springAndSummer():
     for r in range(N):
