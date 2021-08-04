@@ -1,8 +1,8 @@
 import sys
+from heapq import heappop, heappush
 sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
-# 시간초과남, 힙 써보기
 
 def springAndSummer():
     for r in range(N):
@@ -10,23 +10,19 @@ def springAndSummer():
             if not trees[r][c]: continue
 
             # spring
-            dead = -1
-            for i in range(len(trees[r][c])):
-                if trees[r][c][i] <= land[r][c]: # 나무 나이 < 양분
-                    land[r][c] -= trees[r][c][i]
-                    trees[r][c][i] += 1
-                else:
-                    dead = i # 나무 나이 > 양분
-                    break # 그 뒤에 있는 나무들 다이
-
-            # summer
             add = 0
-            if dead != -1:
-                for j in  range(dead, len(trees[r][c])):
-                    add += trees[r][c][j] // 2
-                trees[r][c] = trees[r][c][:dead]
+            temp = []
+            while trees[r][c]:
+                tree = heappop(trees[r][c])
+                if tree <= land[r][c]: # 나무 나이 < 양분
+                    land[r][c] -= tree
+                    tree += 1
+                    heappush(temp, tree)
+                else:
+                    # summer
+                    add += tree // 2
 
-            trees[r][c].sort()
+            trees[r][c] = temp
             land[r][c] += add
 
 
@@ -34,6 +30,7 @@ def fallAndWinter():
     for r in range(N):
         for c in range(N):
 
+            # fall
             if not trees[r][c]:
                 land[r][c] += A[r][c]
                 continue
@@ -47,8 +44,8 @@ def fallAndWinter():
                     if 0 <= nr < N and 0 <= nc < N:
                         trees[nr][nc].insert(0, 1) # 나이가 1인 나무 맨 앞에 추가
 
+            # winter
             land[r][c] += A[r][c]
-
 
 
 def solution():
@@ -74,11 +71,6 @@ dc = [-1, 0, 1, -1, 1, -1, 0, 1]
 
 for _ in range(M):
     x, y, z = map(int, input().split())
-    trees[x-1][y-1].append(z)
-
-for r in range(N):
-    for c in range(N):
-        trees[r][c].sort() # 어린 나무 순서로 배치
-
+    heappush(trees[x-1][y-1], z)
 
 solution()

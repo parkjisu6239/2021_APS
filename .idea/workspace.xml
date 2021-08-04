@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,28 +17,28 @@
     <session id="-1785772321">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="5" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.4" value="6" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="md" value="12" />
-          <entry key="py" value="65" />
-          <entry key="txt" value="22" />
+          <entry key="py" value="66" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="12" />
-          <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="65" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Python" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -43,52 +46,60 @@
           <entry key="dummy" value="6" />
           <entry key="gitignore" value="6" />
           <entry key="md" value="1848" />
-          <entry key="py" value="13493" />
-          <entry key="txt" value="227" />
+          <entry key="py" value="13649" />
+          <entry key="txt" value="228" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="1846" />
-          <entry key="PLAIN_TEXT" value="239" />
-          <entry key="Python" value="13495" />
+          <entry key="PLAIN_TEXT" value="240" />
+          <entry key="Python" value="13651" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-              <folding>
-                <marker date="1627998971732" expanded="true" signature="1373:1586" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="291" selection-start-line="291" selection-end-line="291" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret selection-end-line="2" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="273">
+                  <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BJ/알고리즘분류/브루트포스/1107_리모컨/input.txt" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/문자열/9935_문자열폭발/s3.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/문자열/9935_문자열폭발/a1.py" />
         <option value="$PROJECT_DIR$/Programmers/Level_1/1_키패드누르기.py" />
@@ -167,12 +177,13 @@
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/5373_큐빙/s1.py" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/input.txt" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s2.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2621" />
-    <option name="width" value="1227" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="2031" />
+    <option name="width" value="1817" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -204,7 +215,7 @@
               <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
               <item name="BJ" type="462c0819:PsiDirectoryNode" />
               <item name="삼성A형기출" type="462c0819:PsiDirectoryNode" />
-              <item name="16234_인구이동" type="462c0819:PsiDirectoryNode" />
+              <item name="16235_나무재태크" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.s1 (3)">
+  <component name="RunManager" selected="Python.s2 (2)">
     <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2021_APS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,7 +353,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="s2 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2021_APS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,11 +361,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회/s2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -365,19 +376,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.s1" />
-      <item itemvalue="Python.s2" />
       <item itemvalue="Python.s1 (2)" />
       <item itemvalue="Python.s2 (1)" />
       <item itemvalue="Python.s1 (1)" />
       <item itemvalue="Python.s1 (3)" />
+      <item itemvalue="Python.s2 (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s2 (2)" />
         <item itemvalue="Python.s1 (3)" />
         <item itemvalue="Python.s1 (1)" />
         <item itemvalue="Python.s2 (1)" />
         <item itemvalue="Python.s1 (2)" />
-        <item itemvalue="Python.s2" />
       </list>
     </recent_temporary>
   </component>
@@ -395,20 +406,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2621" y="0" width="1227" height="1056" extended-state="0" />
+    <frame x="2031" y="0" width="1817" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17914213" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1450253" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.16395223" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.16395223" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.33984798" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.5081433" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.22366993" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.50705755" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -504,8 +515,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s1.py</url>
-          <line>84</line>
+          <line>83</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s2.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -557,13 +573,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/브루트포스/1107_리모컨/s2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="47" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/문자열/9935_문자열폭발/s2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -934,7 +943,7 @@
     </entry>
     <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="6111">
           <caret line="291" selection-start-line="291" selection-end-line="291" />
         </state>
       </provider>
@@ -948,10 +957,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
           <folding>
-            <marker date="1627998971732" expanded="true" signature="1373:1586" ph="..." />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
