@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programmers/Level_1/1_위클리챌린지2주차.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +15,20 @@
     <session id="-1785772321">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.4" value="8" />
           <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="md" value="16" />
-          <entry key="py" value="87" />
+          <entry key="py" value="88" />
           <entry key="txt" value="27" />
         </counts>
       </usages-collector>
@@ -39,7 +36,7 @@
         <counts>
           <entry key="Markdown" value="16" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="87" />
+          <entry key="Python" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
+            <state relative-caret-position="294">
               <caret line="14" selection-start-line="14" selection-end-line="18" />
               <folding>
                 <marker date="1628251024532" expanded="true" signature="1295:1514" ph="..." />
@@ -86,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="46" column="21" lean-forward="true" selection-end-line="46" selection-end-column="21" />
+            <state relative-caret-position="945">
+              <caret line="46" column="21" selection-end-line="46" selection-end-column="21" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -95,14 +92,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2394">
-                <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+              <first_editor relative-caret-position="251">
+                <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Programmers/Level_1/1_위클리챌린지2주차.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -110,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
+            <state relative-caret-position="84">
               <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding>
                 <marker date="1628311122297" expanded="true" signature="822:823" ph="..." />
@@ -160,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BJ/알고리즘분류/이진탐색/7453_합이 0인 네 정수/README.md" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/input.txt" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s1.py" />
         <option value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s2.py" />
@@ -211,6 +216,7 @@
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s4.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s3.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/README.md" />
+        <option value="$PROJECT_DIR$/Programmers/Level_1/1_위클리챌린지2주차.py" />
       </list>
     </option>
   </component>
@@ -225,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,41 +241,19 @@
             <path>
               <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
               <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
-              <item name="BJ" type="462c0819:PsiDirectoryNode" />
+              <item name="Programmers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
               <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
-              <item name="BJ" type="462c0819:PsiDirectoryNode" />
-              <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
-              <item name="BJ" type="462c0819:PsiDirectoryNode" />
-              <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
-              <item name="백트래킹" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
-              <item name="BJ" type="462c0819:PsiDirectoryNode" />
-              <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
-              <item name="백트래킹" type="462c0819:PsiDirectoryNode" />
-              <item name="1062_가르침" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
-              <item name="BJ" type="462c0819:PsiDirectoryNode" />
-              <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
-              <item name="백트래킹" type="462c0819:PsiDirectoryNode" />
-              <item name="1759_암호만들기" type="462c0819:PsiDirectoryNode" />
+              <item name="Programmers" type="462c0819:PsiDirectoryNode" />
+              <item name="Level_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,13 +445,13 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15964173" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.42996743" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.42996743" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3344191" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3344191" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.40716612" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -669,13 +652,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -1007,13 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="68" column="23" selection-end-line="86" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -1028,12 +997,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="23" selection-end-line="86" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
+        <state relative-caret-position="294">
           <caret line="14" selection-start-line="14" selection-end-line="18" />
           <folding>
             <marker date="1628251024532" expanded="true" signature="1295:1514" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="46" column="21" selection-end-line="46" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1628311122297" expanded="true" signature="822:823" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1045,33 +1041,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <marker date="1628311122297" expanded="true" signature="822:823" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="46" column="21" lean-forward="true" selection-end-line="46" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2394">
-            <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+          <first_editor relative-caret-position="251">
+            <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programmers/Level_1/1_위클리챌린지2주차.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
