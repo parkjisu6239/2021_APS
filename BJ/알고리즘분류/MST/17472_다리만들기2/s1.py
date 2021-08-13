@@ -2,9 +2,10 @@ import sys
 from heapq import heappop, heappush
 sys.stdin = open('input.txt')
 
-# 각 나라에 번호를 메긴다.
-# 상하좌우 중에 바다가 하나라도 있으며, 다리의 길이가 2 이상인 곳에 다리를 놓을 수 있다
-
+# 각 나라에 번호를 메긴다. 두 정점과 놓을 수 있는 다리, 다리의 길이를 구한다.
+# 상하좌우 중에 바다가 하나라도 있으며, 다리의 길이가 2 이상인 곳에 다리를 놓을 수 있다.
+# 그래프를 만들고 나면 프림 방식과 동일
+# 76ms
 
 q = lambda: map(int, sys.stdin.readline().split())
 n, m = q()
@@ -59,7 +60,10 @@ def findBridge():
 
                     if t >= 2 and 0 <= ni < n and 0 <= nj < m:
                         w = -arr[ni][nj]
-                        graph[v][w] = t
+                        if graph[v][w]: # point1: 두섬을 연결하는 다리가 여러개일 수 있음
+                            graph[v][w] = min(graph[v][w], t) # 그중 최소로
+                        else:
+                            graph[v][w] = t
 
 
 def prim():
@@ -83,7 +87,7 @@ def prim():
                 heappush(heap, (graph[v][w], w))
 
 
-    return total if total else -1
+    return total if node == c else -1 # 모든 섬이 연결된 것 확인
 
 
 

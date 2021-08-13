@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py" beforeDir="false" afterPath="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,28 +16,28 @@
     <session id="-1785772321">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="22" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="6" />
+          <entry key="project.open.time.3" value="7" />
           <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.5" value="6" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="input" value="1" />
-          <entry key="md" value="16" />
+          <entry key="md" value="17" />
           <entry key="py" value="99" />
-          <entry key="txt" value="32" />
+          <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="16" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="Markdown" value="17" />
+          <entry key="PLAIN_TEXT" value="37" />
           <entry key="Python" value="97" />
         </counts>
       </usages-collector>
@@ -45,65 +45,69 @@
         <counts>
           <entry key="dummy" value="8" />
           <entry key="gitignore" value="6" />
-          <entry key="md" value="3501" />
-          <entry key="py" value="20144" />
-          <entry key="txt" value="363" />
+          <entry key="md" value="4080" />
+          <entry key="py" value="20421" />
+          <entry key="txt" value="378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="3499" />
-          <entry key="PLAIN_TEXT" value="377" />
-          <entry key="Python" value="20146" />
+          <entry key="Markdown" value="4077" />
+          <entry key="PLAIN_TEXT" value="392" />
+          <entry key="Python" value="20424" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1628774001268" expanded="true" signature="317:318" ph="..." />
-                <marker date="1628774001268" expanded="true" signature="317:322" ph="..." />
-                <marker date="1628774001268" expanded="true" signature="500:501" ph="..." />
-                <marker date="1628774001268" expanded="true" signature="500:506" ph="..." />
-                <marker date="1628774001268" expanded="true" signature="1550:1924" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/2887_행성터널/s3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-819" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/2887_행성터널/s2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-529">
-              <caret selection-end-line="1" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.79749215">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="290">
+                  <caret line="90" lean-forward="true" selection-end-line="97" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#0#10#0" expanded="true" />
+                    <marker date="1628857240581" expanded="true" signature="379:380" ph="..." />
+                    <marker date="1628857240581" expanded="true" signature="379:384" ph="..." />
+                    <marker date="1628857240581" expanded="true" signature="562:563" ph="..." />
+                    <marker date="1628857240581" expanded="true" signature="562:568" ph="..." />
+                    <marker date="1628857240581" expanded="true" signature="1790:2212" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="436">
+                    <caret line="247" column="48" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BJ/알고리즘분류/시뮬레이션/16234_인구이동/s1.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/input.txt" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/s2.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/s1.py" />
@@ -186,6 +189,7 @@
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input.txt" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/README.md" />
       </list>
     </option>
   </component>
@@ -231,6 +235,14 @@
               <item name="BJ" type="462c0819:PsiDirectoryNode" />
               <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
               <item name="MST" type="462c0819:PsiDirectoryNode" />
+              <item name="2887_행성터널" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
+              <item name="BJ" type="462c0819:PsiDirectoryNode" />
+              <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
+              <item name="MST" type="462c0819:PsiDirectoryNode" />
               <item name="17472_다리만들기2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -246,11 +258,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\MST\17472_다리만들기2" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\백트래킹\1062_가르침" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\우선순위큐\1655_가운데를말해료" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\트리DP\1949_우수마을" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\시뮬레이션\16234_인구이동" />
-      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\다익스트라\1261_알고스팟" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -428,16 +440,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15964173" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15964173" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.23669924" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.23644252" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3344191" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.25515744" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3344191" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.33116177" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -564,21 +576,16 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py</url>
-          <line>92</line>
-          <option name="timeStamp" value="43" />
+          <line>97</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="visit" language="Python" />
-        <watch expression="dp" language="Python" />
-        <watch expression="candidates" language="Python" />
-        <watch expression="converted_word" language="Python" />
+        <watch expression="graph" language="Python" />
         <watch expression="arr" language="Python" />
-        <watch expression="n" language="Python" />
-        <watch expression="m" language="Python" />
-        <watch expression="visit" language="Python" />
+        <watch expression="c" language="Python" />
         <watch expression="c" language="Python" />
       </configuration>
     </watches-manager>
@@ -587,6 +594,16 @@
     <expressions id="watch">
       <expression>
         <expression-string>c</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>graph</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -606,11 +623,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>arr</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>converted_word</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -625,26 +637,9 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>learned</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>words</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -898,9 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="46" column="21" selection-end-line="46" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,9 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="17" lean-forward="true" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <marker date="1628766870182" expanded="true" signature="140:141" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,18 +971,11 @@
           <caret selection-end-line="1" selection-end-column="29" />
           <folding>
             <marker date="1628768773672" expanded="true" signature="619:624" ph="..." />
-            <marker date="1628768773672" expanded="true" signature="868:869" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input" />
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/2887_행성터널/s3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-819" />
@@ -1010,31 +992,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="35" column="20" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="73" column="20" lean-forward="true" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        <state relative-caret-position="290">
+          <caret line="90" lean-forward="true" selection-end-line="97" selection-end-column="13" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1628774001268" expanded="true" signature="317:318" ph="..." />
-            <marker date="1628774001268" expanded="true" signature="317:322" ph="..." />
-            <marker date="1628774001268" expanded="true" signature="500:501" ph="..." />
-            <marker date="1628774001268" expanded="true" signature="500:506" ph="..." />
-            <marker date="1628774001268" expanded="true" signature="1550:1924" ph="..." />
+            <marker date="1628857240581" expanded="true" signature="379:380" ph="..." />
+            <marker date="1628857240581" expanded="true" signature="379:384" ph="..." />
+            <marker date="1628857240581" expanded="true" signature="562:563" ph="..." />
+            <marker date="1628857240581" expanded="true" signature="562:568" ph="..." />
+            <marker date="1628857240581" expanded="true" signature="1790:2212" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="436">
+            <caret line="247" column="48" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
