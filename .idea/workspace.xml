@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BJ/알고리즘분류/두포인터/1644_소수의연속합/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,32 +29,32 @@
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="input" value="1" />
-          <entry key="md" value="18" />
-          <entry key="py" value="100" />
+          <entry key="md" value="19" />
+          <entry key="py" value="102" />
           <entry key="txt" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="18" />
+          <entry key="Markdown" value="19" />
           <entry key="PLAIN_TEXT" value="37" />
-          <entry key="Python" value="98" />
+          <entry key="Python" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
           <entry key="gitignore" value="6" />
-          <entry key="md" value="4185" />
-          <entry key="py" value="20421" />
+          <entry key="md" value="4351" />
+          <entry key="py" value="20449" />
           <entry key="txt" value="378" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="4182" />
+          <entry key="Markdown" value="4348" />
           <entry key="PLAIN_TEXT" value="392" />
-          <entry key="Python" value="20424" />
+          <entry key="Python" value="20452" />
         </counts>
       </usages-collector>
     </session>
@@ -102,7 +104,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/두포인터/1644_소수의연속합/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
@@ -110,6 +112,36 @@
                     <caret line="125" column="52" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
                   </first_editor>
                   <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="-355">
+                    <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s3.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="416">
+                  <caret line="39" lean-forward="true" selection-end-line="40" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s2.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="126">
+                  <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -146,6 +178,7 @@
       <find>w</find>
       <find>right</find>
       <find>heappop</find>
+      <find>N</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -153,6 +186,7 @@
       <replace>b</replace>
       <replace>MIN</replace>
       <replace>heapq.heappop</replace>
+      <replace>n</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -161,8 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/s2.py" />
-        <option value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/s1.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/ㄴ3.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/s3.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/s4.py" />
@@ -212,6 +244,8 @@
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/README.md" />
         <option value="$PROJECT_DIR$/BJ/알고리즘분류/두포인터/1644_소수의연속합/README.md" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s3.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/README.md" />
       </list>
     </option>
   </component>
@@ -249,23 +283,23 @@
               <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
               <item name="BJ" type="462c0819:PsiDirectoryNode" />
               <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
-              <item name="두포인터" type="462c0819:PsiDirectoryNode" />
+              <item name="스택" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
               <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
               <item name="BJ" type="462c0819:PsiDirectoryNode" />
               <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
-              <item name="두포인터" type="462c0819:PsiDirectoryNode" />
-              <item name="1644_소수의연속합" type="462c0819:PsiDirectoryNode" />
+              <item name="스택" type="462c0819:PsiDirectoryNode" />
+              <item name="2493_탑" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
               <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
               <item name="BJ" type="462c0819:PsiDirectoryNode" />
               <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
-              <item name="두포인터" type="462c0819:PsiDirectoryNode" />
-              <item name="1806_부분합" type="462c0819:PsiDirectoryNode" />
+              <item name="스택" type="462c0819:PsiDirectoryNode" />
+              <item name="2812_크게만들기" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,11 +314,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\스택\2812_크게만들기" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\두포인터\1644_소수의연속합" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\MST\17472_다리만들기2" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\백트래킹\1062_가르침" />
       <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\우선순위큐\1655_가운데를말해료" />
-      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\트리DP\1949_우수마을" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -299,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.s1 (3)">
+  <component name="RunManager" selected="Python.s3">
     <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2021_APS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -405,7 +439,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="s3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="s3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2021_APS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -413,11 +447,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -428,19 +462,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.s1" />
-      <item itemvalue="Python.s3 (1)" />
       <item itemvalue="Python.s1 (1)" />
       <item itemvalue="Python.s2" />
       <item itemvalue="Python.s1 (2)" />
       <item itemvalue="Python.s1 (3)" />
+      <item itemvalue="Python.s3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.s3" />
         <item itemvalue="Python.s1 (3)" />
         <item itemvalue="Python.s1 (2)" />
         <item itemvalue="Python.s2" />
         <item itemvalue="Python.s1 (1)" />
-        <item itemvalue="Python.s3 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -464,13 +498,13 @@
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15964173" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.23561347" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.23561347" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32899022" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3344191" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3344191" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.33116177" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -662,20 +696,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회/s1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회/s2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="18" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -949,13 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1044,6 +1057,30 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="527">
             <caret line="125" column="52" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="39" lean-forward="true" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-355">
+            <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
