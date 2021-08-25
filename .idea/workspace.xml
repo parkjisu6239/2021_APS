@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1785772321">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="25" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.3" value="7" />
+          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.opened" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="input" value="1" />
+          <entry key="md" value="19" />
+          <entry key="py" value="106" />
+          <entry key="txt" value="35" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="19" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="Python" value="104" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="8" />
+          <entry key="gitignore" value="6" />
+          <entry key="md" value="4351" />
+          <entry key="py" value="21487" />
+          <entry key="txt" value="383" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="4348" />
+          <entry key="PLAIN_TEXT" value="397" />
+          <entry key="Python" value="21490" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/s1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="29" />
+              <folding>
+                <marker date="1629889947916" expanded="true" signature="461:466" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/a1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1003_피보나치함수/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1003_피보나치함수/s1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <marker date="1629891267307" expanded="true" signature="111:274" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>R</find>
+      <find>import sys n = int(sys.stdin.readline()) alist, blist, clist, dlist = [], [], [], [] for _ in range(n): a, b, c, d = map(int, sys.stdin.readline().split()) alist.append(a); blist.append(b); clist.append(c); dlist.append(d) ab, cd = {}, {} for a in alist: for b in blist: if not ab.get(a+b): ab[a+b] = 1 else: ab[a+b] += 1 for c in clist: for d in dlist: if not cd.get(c+d): cd[c+d] = 1 else: cd[c+d] += 1 ans = 0 for _, key in enumerate(ab): if cd.get(-key): ans += (ab[key] * cd[-key]) print(ans)</find>
+      <find>[</find>
+      <find>w</find>
+      <find>right</find>
+      <find>heappop</find>
+      <find>N</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>y</replace>
+      <replace>b</replace>
+      <replace>MIN</replace>
+      <replace>heapq.heappop</replace>
+      <replace>n</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회/test.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회/README.md" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/README.md" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/시뮬레이션/16234_인구이동/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s2.py" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/README.md" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/5373_큐빙/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/5373_큐빙/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s2.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/input.txt.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/우선순위큐/1655_가운데를말해료/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/우선순위큐/1655_가운데를말해료/s2.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/우선순위큐/1655_가운데를말해료/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/s2.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/s3.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/README.md" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/우선순위큐/1655_가운데를말해료/README.md" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s2.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/a1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s4.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s3.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/README.md" />
+        <option value="$PROJECT_DIR$/Programmers/Level_1/1_위클리챌린지2주차.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s2.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/두포인터/1644_소수의연속합/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/두포인터/1644_소수의연속합/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/README.md" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/두포인터/1644_소수의연속합/README.md" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s3.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/README.md" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/a1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1003_피보나치함수/input.txt" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1003_피보나치함수/s1.py" />
+        <option value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1003_피보나치함수/s2.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1928" />
+    <option name="y" value="115" />
+    <option name="width" value="1818" />
+    <option name="height" value="882" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
+              <item name="BJ" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
+              <item name="BJ" type="462c0819:PsiDirectoryNode" />
+              <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
+              <item name="BJ" type="462c0819:PsiDirectoryNode" />
+              <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2021_APS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2021_APS" type="462c0819:PsiDirectoryNode" />
+              <item name="BJ" type="462c0819:PsiDirectoryNode" />
+              <item name="알고리즘분류" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
+              <item name="1003_피보나치함수" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\스택\2812_크게만들기" />
+      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\두포인터\1644_소수의연속합" />
+      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\MST\17472_다리만들기2" />
+      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\백트래킹\1062_가르침" />
+      <recent name="C:\Users\multicampus\Desktop\GitGitGit\2021_APS\BJ\알고리즘분류\우선순위큐\1655_가운데를말해료" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.s1 (1)">
+    <configuration name="a1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2021_APS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/a1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2021_APS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1003_피보나치함수" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1003_피보나치함수/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1 (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2021_APS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1 (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2021_APS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s1" type="PythonConfigurationType" factoryName="Python">
+      <module name="2021_APS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2021_APS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.s1" />
+      <item itemvalue="Python.s1 (3)" />
+      <item itemvalue="Python.s3" />
+      <item itemvalue="Python.s1 (4)" />
+      <item itemvalue="Python.a1" />
+      <item itemvalue="Python.s1 (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.s1 (1)" />
+        <item itemvalue="Python.a1" />
+        <item itemvalue="Python.s1 (4)" />
+        <item itemvalue="Python.s3" />
+        <item itemvalue="Python.s1 (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a9a91a1-6e9f-4271-83e8-9e83c652b66c" name="Default Changelist" comment="" />
+      <created>1626438534073</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626438534073</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15964173" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.23535791" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3344191" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.33116177" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/브루트포스/1107_리모컨/a1.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/문자열/9935_문자열폭발/a1.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/정렬/1744_수묶기/s1.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/이진탐색/7453_합이 0인 네 정수/s1.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s1.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/삼성A형기출/15684_사다리조작/s2.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/시뮬레이션/16234_인구이동/s1.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/s1.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/다익스트라/1261_알고스팟/s3.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/분할정복/2263_트리의순회/s2.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/삼성A형기출/5373_큐빙/s1.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s1.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s2.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s1.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/우선순위큐/1655_가운데를말해료/s1.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/s1.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/s2.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s2.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s4.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s2.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/두포인터/1644_소수의연속합/s1.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/s1.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/a1.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="memo" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>memo</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>arr</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>graph</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>visit</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>m</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>n</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>converted_word</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>candidates</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dp</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/15685_드래곤커브/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="116">
+            <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/5373_큐빙/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+          <folding>
+            <marker date="1627910790783" expanded="true" signature="786:2121" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/5373_큐빙/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16234_인구이동/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/삼성A형기출/16235_나무재태크/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/우선순위큐/1655_가운데를말해료/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/우선순위큐/1655_가운데를말해료/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/트리DP/2533_SNS/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/트리DP/2533_SNS/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="14" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/s3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="8" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/우선순위큐/1655_가운데를말해료/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/우선순위큐/1655_가운데를말해료/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="744">
+            <caret line="88" column="34" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/트리DP/1949_우수마을/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="56" selection-start-line="56" selection-end-line="99" selection-end-column="30" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/urllib/parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="712" selection-start-line="712" selection-end-line="712" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="68" column="23" selection-end-line="86" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="18" />
+          <folding>
+            <marker date="1628251024532" expanded="true" signature="1295:1514" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="46" column="21" selection-end-line="46" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2373">
+            <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/s4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1628311122297" expanded="true" signature="822:823" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/백트래킹/1062_가르침/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Programmers/Level_1/1_위클리챌린지2주차.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="291" selection-start-line="291" selection-end-line="291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" lean-forward="true" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/두포인터/1644_소수의연속합/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input" />
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/2887_행성터널/s3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/2887_행성터널/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/2887_행성터널/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1869">
+          <caret line="90" selection-end-line="97" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1628857240581" expanded="true" signature="379:380" ph="..." />
+            <marker date="1628857240581" expanded="true" signature="379:384" ph="..." />
+            <marker date="1628857240581" expanded="true" signature="562:563" ph="..." />
+            <marker date="1628857240581" expanded="true" signature="562:568" ph="..." />
+            <marker date="1628857240581" expanded="true" signature="1790:2212" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="5187">
+            <caret line="247" column="48" selection-start-line="247" selection-start-column="48" selection-end-line="247" selection-end-column="48" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/두포인터/1644_소수의연속합/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="17" selection-end-line="51" />
+          <folding>
+            <marker date="1628768773672" expanded="true" signature="619:624" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" lean-forward="true" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/MST/17472_다리만들기2/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/스택/2812_크게만들기/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="21">
+            <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/두포인터/1644_소수의연속합/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="527">
+            <caret line="125" column="52" selection-start-line="125" selection-start-column="52" selection-end-line="125" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="29" />
+          <folding>
+            <marker date="1629889947916" expanded="true" signature="461:466" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1463_1로만들기/a1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1003_피보나치함수/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1003_피보나치함수/s2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BJ/알고리즘분류/DP/1003_피보나치함수/s1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1629891267307" expanded="true" signature="111:274" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
