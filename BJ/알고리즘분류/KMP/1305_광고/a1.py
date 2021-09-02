@@ -5,7 +5,7 @@ def kmp(content):
     n = len(content)
     table = [0] * n
     j = 0
-    for i in range(1, n):
+    for i in range(1, n): # target index 시작
         while j > 0 and content[i] != content[j]:
             j = table[j-1]
 
@@ -13,6 +13,7 @@ def kmp(content):
             j += 1
             table[i] = j
 
+    print(table)
     return table
 
 
