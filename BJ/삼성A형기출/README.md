@@ -26,7 +26,7 @@
 | ✔     | G5     | 16234    | [인구 이동](https://www.acmicpc.net/problem/16234)           |
 | ✔     | G4     | 16235    | [나무 재테크](https://www.acmicpc.net/problem/16235)         |
 | ✔     | G4     | 16236    | [아기 상어](https://www.acmicpc.net/problem/16236)           |
-|       | G5     | 17144    | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)      |
+| ✔     | G5     | 17144    | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)      |
 |       | G2     | 17143    | [낚시왕](https://www.acmicpc.net/problem/17143)              |
 |       | G4     | 17140    | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)  |
 |       | G4     | 17142    | [연구소 3](https://www.acmicpc.net/problem/17142)            |
