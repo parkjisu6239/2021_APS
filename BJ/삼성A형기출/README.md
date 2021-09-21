@@ -27,7 +27,7 @@
 | ✔     | G4     | 16235    | [나무 재테크](https://www.acmicpc.net/problem/16235)         |
 | ✔     | G4     | 16236    | [아기 상어](https://www.acmicpc.net/problem/16236)           |
 | ✔     | G5     | 17144    | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)      |
-|       | G2     | 17143    | [낚시왕](https://www.acmicpc.net/problem/17143)              |
+| ing   | G2     | 17143    | [낚시왕](https://www.acmicpc.net/problem/17143)              |
 |       | G4     | 17140    | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)  |
 |       | G4     | 17142    | [연구소 3](https://www.acmicpc.net/problem/17142)            |
 |       | G4     | 17779    | [게리맨더링 2](https://www.acmicpc.net/problem/17779)        |
