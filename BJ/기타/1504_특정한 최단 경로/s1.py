@@ -1,6 +1,6 @@
 import sys
 from heapq import heappush, heappop
-sys.stdin = open('eval_input.txt')
+sys.stdin = open('input.txt')
 
 
 # ① 1~must1~must2~n
@@ -10,7 +10,7 @@ sys.stdin = open('eval_input.txt')
 
 def dijkstra(start, end):
     visit = [0] * (V + 1)
-    distance = [1001] * (V + 1)
+    distance = [987654321] * (V + 1)
     distance[start] = 0
 
     heap = []
@@ -49,7 +49,7 @@ must1, must2 = map(int, input().split())
 result1 = dijkstra(1, must1) + dijkstra(must1, must2) + dijkstra(must2, V)
 result2 = dijkstra(1, must2) + dijkstra(must2, must1) + dijkstra(must1, V)
 
-if result1 >= 1001 and result1 >= 1001:
+if result1 >= 987654321 and result2 >= 987654321:
     print(-1)
 else:
     print(min(result1, result2))
