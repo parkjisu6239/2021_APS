@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('eval_input.txt')
+sys.stdin = open('input.txt')
 input = sys.stdin.readline
 
 for _ in range(int(input())):

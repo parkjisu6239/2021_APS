@@ -10,11 +10,7 @@ for i in range(a):
     for j in range(b):
         temp.append(list(map(int, sys.stdin.readline().split(" "))))
 
-    # print(temp)
-
     temp = sorted(temp, key=lambda x: x[1], reverse=False)
-
-    print(temp)
 
     ct = 1
     max_score = temp[0][0]
