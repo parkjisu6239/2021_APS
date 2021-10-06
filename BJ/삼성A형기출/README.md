@@ -22,7 +22,7 @@
 | ✔     | G4     | 15684    | [사다리 조작](https://www.acmicpc.net/problem/15684)         |
 | ✔     | G4     | 15685    | [드래곤 커브](https://www.acmicpc.net/problem/15685)         |
 | ✔     | G5     | 15686    | [치킨 배달](https://www.acmicpc.net/problem/15686)           |
-|       | P5     | 5373     | [큐빙](https://www.acmicpc.net/problem/5373)                 |
+|  ing  | P5     | 5373     | [큐빙](https://www.acmicpc.net/problem/5373)                 |
 | ✔     | G5     | 16234    | [인구 이동](https://www.acmicpc.net/problem/16234)           |
 | ✔     | G4     | 16235    | [나무 재테크](https://www.acmicpc.net/problem/16235)         |
 | ✔     | G4     | 16236    | [아기 상어](https://www.acmicpc.net/problem/16236)           |
