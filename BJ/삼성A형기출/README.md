@@ -28,7 +28,7 @@
 | ✔     | G4     | 16236    | [아기 상어](https://www.acmicpc.net/problem/16236)           |
 | ✔     | G5     | 17144    | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)      |
 | ing   | G2     | 17143    | [낚시왕](https://www.acmicpc.net/problem/17143)              |
-|       | G4     | 17140    | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)  |
+| ✔     | G4     | 17140    | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)  |
 |       | G4     | 17142    | [연구소 3](https://www.acmicpc.net/problem/17142)            |
 |       | G4     | 17779    | [게리맨더링 2](https://www.acmicpc.net/problem/17779)        |
 |       | G2     | 17837    | [새로운 게임 2](https://www.acmicpc.net/problem/17837)       |
@@ -52,3 +52,32 @@
 |       | G5     | 17471    | [게리맨더링](https://www.acmicpc.net/problem/17471)          |
 |       | G2     | 17472    | [다리 만들기 2](https://www.acmicpc.net/problem/17472)       |
 
+
+
+
+
+# TIL
+
+#### 17140
+
+python에도 js의 array method 중 reduce랑 같은게 있다. 배웠었나? 기억이 안난다. 사용법은 다음과 같다. 자세한 내용은 [여기](https://docs.python.org/3/library/functools.html#functools.reduce)
+
+```python
+array[i] = reduce(lambda x, y: list(x) + list(y), X[1:], list(X[0]))
+```
+
+`reduce(함수, 배열, 초기값)` 순서로 작성한다. 함수는 정의해서 사용해도 되고, lambda 를 사용해도 된다. js에서 아래와 같이 사용하는것과 동일하다.
+
+```
+array.reduce((누적값, 현재값) => 함수, 초기값)
+```
+
+
+
+행렬에 따라 서로 다른 함수를 만들어야하는 번거로움을 있을 경우에는, 행기준 함수를 만들고 열에 적용할 때는 trasform 을 하여 사용하는 것이 좋다. 시간도 크게 오래 걸리지 않아서 간단하게 사용하려면 이 방법이 유용하다. 행렬 변환은 다음을 이용해 쉽게 할 수 있다.
+
+```
+arr = list(map(list, zip(*arr)))
+```
+
+`zip(*arr)` 를 하면 행렬이 반대로 되는 튜플이 만들어지고, 이 튜플 하나하나를 리스트로 만들고, 그 전체를 다시 리스트로 만들기 위해 map, list를 사용한다.
