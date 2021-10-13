@@ -22,7 +22,7 @@
 | ✔     | G4     | 15684    | [사다리 조작](https://www.acmicpc.net/problem/15684)         |
 | ✔     | G4     | 15685    | [드래곤 커브](https://www.acmicpc.net/problem/15685)         |
 | ✔     | G5     | 15686    | [치킨 배달](https://www.acmicpc.net/problem/15686)           |
-|  ing  | P5     | 5373     | [큐빙](https://www.acmicpc.net/problem/5373)                 |
+| ing   | P5     | 5373     | [큐빙](https://www.acmicpc.net/problem/5373)                 |
 | ✔     | G5     | 16234    | [인구 이동](https://www.acmicpc.net/problem/16234)           |
 | ✔     | G4     | 16235    | [나무 재테크](https://www.acmicpc.net/problem/16235)         |
 | ✔     | G4     | 16236    | [아기 상어](https://www.acmicpc.net/problem/16236)           |
@@ -49,7 +49,7 @@
 |       | G4     | 17281    | [⚾](https://www.acmicpc.net/problem/17281)                   |
 |       | G1     | 3954     | [Brainf**k 인터프리터](https://www.acmicpc.net/problem/3954) |
 |       | G4     | 17406    | [배열 돌리기 4](https://www.acmicpc.net/problem/17406)       |
-|       | G5     | 17471    | [게리맨더링](https://www.acmicpc.net/problem/17471)          |
+| ✔     | G5     | 17471    | [게리맨더링](https://www.acmicpc.net/problem/17471)          |
 |       | G2     | 17472    | [다리 만들기 2](https://www.acmicpc.net/problem/17472)       |
 
 
