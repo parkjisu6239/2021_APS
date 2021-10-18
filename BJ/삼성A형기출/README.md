@@ -30,7 +30,7 @@
 | ing   | G2     | 17143    | [낚시왕](https://www.acmicpc.net/problem/17143)              |
 | ✔     | G4     | 17140    | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140)  |
 | ✔     | G4     | 17142    | [연구소 3](https://www.acmicpc.net/problem/17142)            |
-|       | G4     | 17779    | [게리맨더링 2](https://www.acmicpc.net/problem/17779)        |
+| ✔     | G4     | 17779    | [게리맨더링 2](https://www.acmicpc.net/problem/17779)        |
 |       | G2     | 17837    | [새로운 게임 2](https://www.acmicpc.net/problem/17837)       |
 |       | G3     | 17822    | [원판 돌리기](https://www.acmicpc.net/problem/17822)         |
 |       | G2     | 17825    | [주사위 윷놀이](https://www.acmicpc.net/problem/17825)       |
