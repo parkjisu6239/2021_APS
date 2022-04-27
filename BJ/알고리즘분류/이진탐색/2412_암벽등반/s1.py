@@ -8,6 +8,7 @@ n, T = map(int, input().split())
 coordinate = [tuple(map(int, input().split())) for _ in range(n)]
 visited = {}
 
+
 def is_available(x, y, nxt_x, nxt_y):
     if abs(nxt_x - x) <= 2 and abs(nxt_y - y) <= 2:
         return True
