@@ -20,17 +20,17 @@ def processed_arr(arr):
         temp = []
         num = ""
         for s in str:
-            if 48 <= ord(s) <= 57: # number
+            if s.isdigit():  # number
                 num += s
+                continue
             elif num:
                 temp.append(num)
                 num = ""
-            else:
-                temp.append(s)
+            temp.append(s)
         if num:
             temp.append(num)
         result.append(temp)
-    return  result
+    return result
 
 
 def who_is_first(i, j):
@@ -44,25 +44,35 @@ def who_is_first(i, j):
         if len(b) == k:
             return j
 
-        if a[k] == b[k]:
-            k += 1
-            continue
-
-        if 48 <= ord(a[k][0]) <= 57 and 48 <= ord(b[k][0]) <= 57: # both number
-            if int(a[k]) < int(b[k]):
+        if a[k].isdigit() and b[k].isdigit(): # both number
+            if int(a[k]) == int(b[k]):
+                if len(a[k]) == len(b[k]):
+                    k += 1
+                    continue
+                if len(a[k]) < len(b[k]):
+                    return i
+                elif len(a[k]) > len(b[k]):
+                    return j
+            elif int(a[k]) < int(b[k]):
                 return i
             else:
                 return j
-        elif ord(a[k][0]) >= 65 and ord(b[k][0]) >= 65: # both string
+        elif a[k].isalpha() and b[k].isalpha(): # both string
+            if a[k] == b[k]:
+                k += 1
+                continue
             if alpha[a[k]] < alpha[b[k]]:
                 return i
-            else:
+            elif alpha[a[k]] > alpha[b[k]]:
                 return j
         else: # mixed
-            if ord(a[k][0]) < ord(b[k][0]):
+            if a[k].isdigit():
                 return i
             else:
                 return j
+
+        k += 1
+        continue
 
 
 def quick_sort(idx_arr):
@@ -80,7 +90,6 @@ def quick_sort(idx_arr):
             right.append(idx_arr[i])
 
     return [*quick_sort(left), pivot, *quick_sort(right)]
-
 
 
 arr = processed_arr(_arr)

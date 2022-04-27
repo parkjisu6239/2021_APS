@@ -1,4 +1,3 @@
-3
-ABA
-AaB
-AaA
+2
+Foo3bar
+Foo3Bar
