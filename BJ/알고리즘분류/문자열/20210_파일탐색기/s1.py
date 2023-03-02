@@ -1,4 +1,5 @@
 import sys
+from functools import cmp_to_key
 
 sys.stdin = open('input.txt')
 input = sys.stdin.readline
@@ -29,71 +30,33 @@ def processed_arr(arr):
             temp.append(s)
         if num:
             temp.append(num)
-        result.append(temp)
+        result.append([str, temp])
     return result
 
 
-def who_is_first(i, j):
-    a = arr[i]
-    b = arr[j]
-    k = 0
-    while True:
-        if len(a) == k:
-            return i
-
-        if len(b) == k:
-            return j
-
-        if a[k].isdigit() and b[k].isdigit(): # both number
-            if int(a[k]) == int(b[k]):
-                if len(a[k]) == len(b[k]):
-                    k += 1
+def who_is_first(first, second):
+    for i in range(min(len(first[1]), len(second[1]))):
+        if first[1][i] == second[1][i]:  # 같으면 다음
+            continue
+        if first[1][i].isdigit() and second[1][i].isdigit(): # 둘다 숫자
+            if int(first[1][i]) == int(second[1][i]): # int가 같은 경우
+                if len(first[1][i]) == len(second[1][i]): # 길이도 같으면 다음 비교
                     continue
-                if len(a[k]) < len(b[k]):
-                    return i
-                elif len(a[k]) > len(b[k]):
-                    return j
-            elif int(a[k]) < int(b[k]):
-                return i
-            else:
-                return j
-        elif a[k].isalpha() and b[k].isalpha(): # both string
-            if a[k] == b[k]:
-                k += 1
-                continue
-            if alpha[a[k]] < alpha[b[k]]:
-                return i
-            elif alpha[a[k]] > alpha[b[k]]:
-                return j
-        else: # mixed
-            if a[k].isdigit():
-                return i
-            else:
-                return j
-
-        k += 1
-        continue
-
-
-def quick_sort(idx_arr):
-    if len(idx_arr) < 2:
-        return idx_arr
-
-    left = []
-    right = []
-    pivot = idx_arr[0]
-
-    for i in range(1, len(idx_arr)):
-        if who_is_first(idx_arr[i], pivot) == idx_arr[i]:
-            left.append(idx_arr[i])
+                return len(first[1][i]) - len(second[1][i]) # 짧은게 더 앞
+            else: # int가 다른 경우
+                return int(first[1][i]) - int(second[1][i]) # 작은 수가 더 앞
+        elif first[1][i].isalpha() and second[1][i].isalpha(): # 둘다 문자
+            return alpha[first[1][i]] - alpha[second[1][i]] # AaBb 순서
         else:
-            right.append(idx_arr[i])
+            return -1 if first[1][i].isdigit() else 1
 
-    return [*quick_sort(left), pivot, *quick_sort(right)]
+    return len(first[1]) - len(second[1])
 
 
 arr = processed_arr(_arr)
-sorted_idx = quick_sort([idx for idx in range(n)])
 
-for idx in sorted_idx:
-    print(_arr[idx])
+print(arr)
+answer = sorted(arr, key = cmp_to_key(who_is_first))
+
+for a, b in answer:
+    print(a)

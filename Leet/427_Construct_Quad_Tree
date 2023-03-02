@@ -1,0 +1,68 @@
+// Definition for a QuadTree node.
+function Node(val, isLeaf, topLeft, topRight, bottomLeft, bottomRight) {
+  this.val = val;
+  this.isLeaf = isLeaf;
+  this.topLeft = topLeft;
+  this.topRight = topRight;
+  this.bottomLeft = bottomLeft;
+  this.bottomRight = bottomRight;
+}
+
+const checkIsLeaf = (subGrid) => {
+  const ele = subGrid[0][0];
+  for (let row of subGrid) {
+    for (let cell of row) {
+      if (cell !== ele) {
+        return [false, true];
+      }
+    }
+  }
+  return [true, !!ele];
+};
+
+const getQuadTree = (grid) => {
+  const n = grid.length / 2;
+  const grids = [];
+  for (let r = 0; r < 2; r++) {
+    for (let c = 0; c < 2; c++) {
+      const subGrid = [];
+      for (let i = 0; i < n; i++) {
+        const temp = [];
+        for (let j = 0; j < n; j++) {
+          temp.push(grid[r * n + i][c * n + j]);
+        }
+        subGrid.push(temp);
+      }
+      grids.push(subGrid);
+    }
+  }
+  return grids;
+};
+
+const construct = (grid) => {
+  const [isLeaf, val] = checkIsLeaf(grid);
+  const [topLeft, topRight, bottomLeft, bottomRight] = getQuadTree(grid);
+  const node = new Node(
+    val,
+    isLeaf,
+    topLeft,
+    topRight,
+    bottomLeft,
+    bottomRight
+  );
+
+  return node;
+};
+
+const input = [
+  [1, 1, 1, 1, 0, 0, 0, 0],
+  [1, 1, 1, 1, 0, 0, 0, 0],
+  [1, 1, 1, 1, 1, 1, 1, 1],
+  [1, 1, 1, 1, 1, 1, 1, 1],
+  [1, 1, 1, 1, 0, 0, 0, 0],
+  [1, 1, 1, 1, 0, 0, 0, 0],
+  [1, 1, 1, 1, 0, 0, 0, 0],
+  [1, 1, 1, 1, 0, 0, 0, 0],
+];
+
+console.log(construct(input));

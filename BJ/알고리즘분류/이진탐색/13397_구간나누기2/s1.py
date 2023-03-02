@@ -15,6 +15,7 @@ input = sys.stdin.readline
 N, M = map(int, input().split())
 arr = list(map(int, input().split()))
 
+
 def get_section_cnt(target):
     section_max, section_min = arr[0], arr[0] # 첫 구간의 최대 최소
     section_cnt = 1
